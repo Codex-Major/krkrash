@@ -83,8 +83,7 @@ def scalar_multiply(k: int, point: tuple, p: int, a: int):
   return result
 
 def sign_jwt(payload: dict, key, alg: str = "ES256", nonce_int: int = None):
-  #header = {"alg": alg, "typ": "JWT"}
-  header = {"alg": alg}
+  header = {"alg": alg, "typ": "JWT"}
   encoded_header = base64url_encode(json.dumps(header, separators=(",", ":")).encode("utf-8"))
   encoded_payload = base64url_encode(json.dumps(payload, separators=(",", ":")).encode("utf-8"))
   signing_input = f"{encoded_header}.{encoded_payload}".encode("utf-8")
