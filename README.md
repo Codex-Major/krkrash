@@ -82,7 +82,13 @@ eyJhbGciOiJFUzI1NiJ9.eyJ1dWlkIjoxLCJ1c2VybmFtZSI6InVzZXIwMSIsImVtYWlsIjoidXNlcjA
 ================================
 
 ```
+---
 
+## Links For Learning:
+
+    - https://ecdsa.com/learn/ecdsa-nonce-reuse
+    - https://crypto.stackexchange.com/questions/71764/is-it-safe-to-reuse-a-ecdsa-nonce-for-two-signatures-if-the-public-keys-are-diff
+    - https://www.vaadata.com/en/blog/jwt-json-web-token-vulnerabilities-common-attacks-and-security-best-practices/
 ---
 
 ## Remediation
